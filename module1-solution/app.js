@@ -22,7 +22,6 @@
     var count = 0;
     var list = string.split(',');
     for(var i=0;i<list.length;i++){
-      //NOT consider an empty item
       if(list[i].trim()!='')
         count++;
     };
